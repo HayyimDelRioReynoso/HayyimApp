@@ -11,9 +11,6 @@ import Add from './screens/Add';
 import HomeGoogle from './screens/HomeGoogle';
 
 
-// Web: 416675925823-djitfd0vt45voeis6ofg1095eatmc4er.apps.googleusercontent.com
-// iOS: 416675925823-aekvp88l5rdc2ffr2rg5be6nq95o5k1k.apps.googleusercontent.com
-// Android: 416675925823-vae9sin8h0jhvklhas9ruu72jgmcc7gk.apps.googleusercontent.com
 
 WebBrowser.maybeCompleteAuthSession();
 
