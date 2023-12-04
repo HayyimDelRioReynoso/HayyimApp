@@ -64,9 +64,9 @@ function LoginScreen() {
 
     //Establecemos ID de acceso
     const [request, response, promtAsync] = Google.useAuthRequest({
-        webClientId: "416675925823-djitfd0vt45voeis6ofg1095eatmc4er.apps.googleusercontent.com",
-        iosClientId: "416675925823-aekvp88l5rdc2ffr2rg5be6nq95o5k1k.apps.googleusercontent.com",
-        androidClientId: "416675925823-vae9sin8h0jhvklhas9ruu72jgmcc7gk.apps.googleusercontent.com"
+        webClientId: "Your Personal ID",
+        iosClientId: "Your Personal ID",
+        androidClientId: "Your Personal ID"
     });
 
     //Usamos useEffect para el manejo de operaciones asíncronas
