@@ -75,7 +75,7 @@ function HomeScreen() {
 
             <View style={styles.tarjeta}>
 
-                <AntDesign style={styles.agregar} name="pluscircle" onPress={() => navigation.navigate('Add')} size={30} color="black" />
+                <AntDesign style={styles.agregar} name="pluscircle" onPress={() => navigation.navigate('Add')} size={30}  color="black" />
 
                 <RN.ScrollView contentContainerStyle={{ paddingBottom: 100 }}>
                     <Text style={styles.titleProductos}>Tus Productos:</Text>
